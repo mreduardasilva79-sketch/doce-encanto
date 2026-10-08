@@ -1,8 +1,8 @@
-🧁 Doce Encanto Confeitaria
+ Doce Encanto Confeitaria
 
 Uma aplicação web interativa desenvolvida para a Doce Encanto Confeitaria, apresentando o catálogo de produtos e um formulário de encomendas reativo.
 
-📐 Arquitetura do Projeto
+ Arquitetura do Projeto
 
 A arquitetura do projeto foi planejada focado na separação clara de responsabilidades, garantindo modularidade e fácil manutenção. Os comportamentos e interações são conectados diretamente no arquivo principal (index.html).
 
@@ -14,7 +14,7 @@ Trabalho-Maria/
     └── form.js          # Componente reativo de formulário em React
 
 
-🛠️ Tecnologias Utilizadas
+   Tecnologias Utilizadas
 
 Front-End:
 
@@ -26,7 +26,7 @@ Front-End:
 
     React (form.js)
 
-🚀 Funcionalidades
+Funcionalidades
 
     Menu Responsivo: Navegação otimizada para dispositivos móveis e desktops.
 
@@ -37,7 +37,7 @@ Front-End:
     Validação de campos obrigatórios (Nome, Produto, Quantidade, Data de Retirada).
 
 
-💻 Como Executar o Projeto
+Como Executar o Projeto
 
     Clonar o Repositório:
 

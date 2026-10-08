@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Doce Encanto Confeitaria</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/doce-encanto/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="wrap row">
+        <div class="logo">Doce Encanto</div>
+        <nav>
+          <a href="#produtos">Produtos</a><a href="#sobre">Sobre</a
+          ><a href="#pedido">Encomendas</a>
+        </nav>
+        <button class="burger" id="bg" aria-label="Menu" aria-expanded="false">
+          ☰
+        </button>
+      </div>
+      <div class="menu" id="mn">
+        <a href="#produtos">Produtos</a><a href="#sobre">Sobre</a
+        ><a href="#pedido">Encomendas</a>
+      </div>
+    </header>
+
+    <div class="wrap">
+      <section class="hero">
+        <div>
+          <h1>Doces feitos à mão para os seus melhores momentos.</h1>
+          <p class="lede">
+            Bolos, brigadeiros gourmet e docinhos para festas, preparados sob
+            encomenda com ingredientes selecionados.
+          </p>
+          <a class="btn" href="#pedido">Fazer encomenda</a
+          ><a class="btn ghost" href="#produtos">Ver produtos</a>
+        </div>
+        <div class="visual" role="img" aria-label="Ilustração decorativa"></div>
+      </section>
+    </div>
+
+    <div class="wrap">
+      <section id="produtos">
+        <h2>Produtos</h2>
+        <p class="sub">
+          Valores de referência — encomendas personalizadas sob consulta.
+        </p>
+        <div class="list" id="lista"></div>
+      </section>
+    </div>
+
+    <div class="alt">
+      <div class="wrap">
+        <section id="sobre">
+          <div class="about">
+            <div>
+              <h2>Sobre a Doce Encanto</h2>
+              <p style="color: var(--soft)">
+                Confeitaria de bairro que nasceu da paixão por receitas de
+                família. Hoje atende aniversários, casamentos e eventos
+                corporativos, sempre com produção artesanal e prazo combinado
+                direto com o cliente.
+              </p>
+            </div>
+            <div class="panel">
+              <p class="quote">
+                "Cada encomenda é feita como se fosse para a nossa própria
+                mesa."
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <section id="pedido">
+        <div class="split">
+          <div>
+            <h2>Encomendas</h2>
+            <p class="sub">
+              Preencha o formulário e envie o pedido direto para o WhatsApp da
+              confeitaria.
+            </p>
+            <div class="panel">
+              <p><b>Horário</b><br />Segunda a sábado, 8h às 18h</p>
+              <p><b>Retirada</b><br />[Endereço da loja]</p>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=confeitaria"
+                target="_blank"
+                rel="noopener"
+                style="color: var(--berry-d)"
+                >Ver no Google Maps →</a
+              >
+            </div>
+          </div>
+          <div id="root"></div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="wrap">
+        © 2026 Doce Encanto Confeitaria · Projeto acadêmico
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+    <script src="/doce-encanto/script.js"></script>
+    <script src="/doce-encanto/form.js" type="text/babel"></script>
+  </body>
+</html>

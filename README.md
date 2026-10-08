@@ -56,3 +56,4 @@ Front-End:
         Caso utilize o VS Code, pode abrir utilizando a extensão Live Server.
 
 ✨ Desenvolvido para a Doce Encanto Confeitaria.# doce-encanto
+# doce-encanto
